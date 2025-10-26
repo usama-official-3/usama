@@ -1,0 +1,14 @@
+# Allow all search engines to index everything
+User-agent: *
+Allow: /
+
+# Disallow any sensitive folders (you can remove or add more if needed)
+Disallow: /vendor/
+Disallow: /forms/
+
+# Provide your sitemap location
+Sitemap: https://usama.netlify.app/sitemap.xml
+
+# Author info (optional but good for SEO)
+User-agent: *
+Crawl-delay: 10

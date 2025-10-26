@@ -1,0 +1,36 @@
+# =============================
+# ⚙️ Project & Build Files
+# =============================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.cache/
+.tmp/
+.DS_Store
+Thumbs.db
+
+# =============================
+# 🧰 Editor & OS Files
+# =============================
+.vscode/
+.idea/
+*.log
+*.bak
+*.tmp
+
+# =============================
+# 🚫 Files/Folders Not Needed on GitHub
+# =============================
+/forms/
+vendor/
+*.rar
+*.zip
+*.7z
+
+# =============================
+# ✅ Optional (you can keep these locally)
+# =============================
+# local test servers, scripts, or backups
+__pycache__/
